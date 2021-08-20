@@ -1,5 +1,7 @@
 .App {
-  text-align: center;
+  position: relative;
+  width: 100%;
+  height: 100%; 
 }
 
 .App-logo {
@@ -35,4 +37,877 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+/* Section 1 Properties */
+
+#section1 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 888;
+}
+
+.yellowBackdrop {
+  height: 85vh;
+  background-image: url(./images/section_1/Rectangle.svg);
+  width: 100%;
+  z-index: 888;
+}
+
+.eleanorLogo {
+  position: absolute;
+  top: 40px;
+  left: 5px;
+  z-index: 999;
+  width: 225px;
+  height: 18px;
+  background-image: url(./images/section_1/EleanorLogo.svg);
+}
+
+.section1Title {
+  position: absolute;
+  width: 827px;
+  height: 276px;
+  top: 179px;
+  left: 95px;
+  z-index: 999;
+  background-image: url(./images/section_1/section1TitleText.svg);
+  background-repeat: no-repeat;
+}
+
+.availabilityText {
+  position: absolute;
+  width: 232px;
+  height: 54px;
+  top: 476px;
+  left: 99px;
+  background-image: url(./images/section_1/availabilityText.svg);
+  background-repeat: no-repeat;
+
+}
+
+.carGroup {
+  position: absolute;
+  bottom: 0;
+  bottom: -100px;
+  z-index: 999;
+  width: 1132px;
+  height: 254px;
+  background-image: url(./images/section_1/CarGroup.svg);
+  background-repeat: no-repeat;
+}
+
+.vehicleApp {
+  position: absolute;
+  right: 178px;
+  z-index: 999;
+  bottom: -100px;
+  width: 341px;
+  height: 730px;
+  background-image: url(./images/section_1/vehicleApp.svg);
+  box-shadow: -18px 17px 20px 1px rgb(50 50 50 / 20%);
+  border-radius: 35px;
+}
+
+/* Section 2 Properties */
+
+#section2 {
+  width: 1600px;
+  height: 100vh;
+}
+
+.section2Rectangle {
+  position: absolute;
+  z-index: 888;
+  width: 524px;
+  height: 661px;
+  top: 1078px;
+  left: 101px;
+  background-image: url(./images/section_2/section2Rectangle.svg);
+}
+
+.section2Car {
+  position: absolute;
+  z-index: 999;
+  width: 718px;
+  height: 276px;
+  top: 1547px;
+  left: 192px;
+  background-image: url(./images/section_2/section2Car.svg);
+}
+
+.porsche {
+  position: absolute;
+  z-index: 999;
+  width: 712.95px;
+  height: 203.75px;
+  top: 1600px;
+  left: 192px;
+  background-image: url(./images/section_2/porsche.svg);
+}
+
+.section2Title {
+  position: absolute;
+  width: 546px;
+  height: 196px;
+  top: 1199px;
+  left: 786px;
+  background-image: url(./images/section_2/section2Title.svg);
+  background-repeat: no-repeat;
+}
+
+.section2SelectionText {
+  position: absolute;
+  width: 456px;
+  height: 78px;
+  top: 1422px;
+  left: 789px;
+  background-image: url(./images/section_2/section2SelectionText.svg);
+  background-repeat: no-repeat;
+}
+
+.landRover {
+  position: absolute;
+  width: 238px;
+  height: 64px;
+  Top: 1259px;
+  left: 230px;
+  z-index: 999;
+  background-image: url(./images/section_2/landrover.svg);
+  background-repeat: no-repeat;
+}
+
+.porscheText {
+  position: absolute;
+  width: 175px;
+  height: 64px;
+  z-index: 999;
+  left: 230px;
+  top: 1259px;
+  font-family: BebasNeue;
+  font-size: 64px;
+  line-height: 75px;
+  color: #000000;
+  background-image: url('./images/section_2/porscheText.svg');
+  background-repeat: no-repeat;
+}
+
+.roverSubText {
+  position: absolute;
+  width: 142px;
+  height: 20px;
+  left: 230px;
+  top: 1326px;
+  z-index: 999;
+  font-family: Bebas Neue;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 20px;
+  color: #4B5168;
+  background-image: url(./images/section_2/roverSubText.svg);
+  background-repeat: no-repeat;
+}
+
+.porscheSubText {
+  position: absolute;
+  width: 117px;
+  height: 20px;
+  z-index: 999;
+  left: 230px;
+  top: 1326px;
+  font-family: Bebas Neue;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 20px;
+  color: #4B5168;
+  background-image: url(./images/section_2/porscheSubText.svg);
+  background-repeat: no-repeat;
+}
+
+.porscheMPG {
+  position: absolute;
+  width: 61px;
+  height: 31px;
+  z-index: 999;
+  left: 316px;
+  top: 1408px;
+  font-family: BebasNeue;
+  font-size: 31px;
+  line-height: 36px;
+  color: #1B1E28;
+  background-image: url(./images/section_2/porscheMPG.svg);
+  background-repeat: no-repeat;
+}
+
+.porscheHP {
+  position: absolute;
+  width: 37px;
+  height: 31px;
+  z-index: 999;
+  left: 316px;
+  top: 1460px;
+  font-family: BebasNeue;
+  font-size: 31px;
+  line-height: 36px;
+  color: #1B1E28;
+  background-image: url(./images/section_2/porscheHP.svg);
+  background-repeat: no-repeat;
+}
+
+.porscheZTS {
+  position: absolute;
+  width: 31px;
+  height: 31px;
+  z-index: 999;
+  left: 316px;
+  top: 1512px;
+  font-family: BebasNeue;
+  font-size: 31px;
+  line-height: 36px;
+  color: #1B1E28;
+  background-image: url(./images/section_2/porscheZTS.svg);
+  background-repeat: no-repeat;
+}
+
+.mpg {
+  position: absolute;
+  z-index: 999;
+  width: 57px;
+  height: 22px;
+  left: 229.5px;
+  top: 1415px;
+  background-image: url(./images/section_2/mpg.svg);
+  background-repeat: no-repeat;
+}
+
+.roverMPG {
+  position: absolute;
+  z-index: 999;
+  width: 61px;
+  height: 31px;
+  left: 316px;
+  top: 1408px;
+  font-family: BebasNeue;
+  font-size: 31px;
+  line-height: 36px;
+  color: #1B1E28;
+  background-image: url(./images/section_2/roverMPG.svg);
+  background-repeat: no-repeat;
+}
+
+.hp {
+  position: absolute;
+  z-index: 999;
+  width: 46px;
+  height: 20px;
+  left: 231px;
+  top: 1468px;
+  background-image: url(./images/section_2/hp.svg);
+}
+
+.roverHP {
+  position: absolute;
+  z-index: 999;
+  width: 37px;
+  height: 31px;
+  left: 316px;
+  top: 1460px;
+  font-family: BebasNeue;
+  font-size: 31px;
+  line-height: 36px;
+  color: #1B1E28;
+  background-image: url(./images/section_2/roverHP.svg);
+  background-repeat: no-repeat;
+}
+
+.zeroToSixty {
+  position: absolute;
+  z-index: 999;
+  width: 55px;
+  height: 23px;
+  left: 233px;
+  top: 1519px;
+  background-image: url('./images/section_2/zeroToSixty.svg');
+}
+
+.roverZTS {
+  position: absolute;
+  width: 31px;
+  height: 31px;
+  z-index: 999;
+  left: 316px;
+  top: 1512px;
+  font-family: BebasNeue;
+  font-size: 31px;
+  line-height: 36px;
+  color: #1B1E28;
+  background-image: url('./images/section_2/roverZTS.svg');
+  background-repeat: no-repeat;
+}
+
+.left-arrow {
+  position: absolute;
+  z-index: 999;
+  width: 29px;
+  height: 15px;
+  left: 516px;
+  top: 1123px;
+  cursor: pointer;
+  background-image: url(./images/section_2/leftArrow.svg);
+  background-repeat: no-repeat;
+}
+
+.right-arrow {
+  position: absolute;
+  z-index: 999;
+  width: 29px;
+  height: 15px;
+  left: 575px;
+  top: 1123px;
+  cursor: pointer;
+  background-image: url(./images/section_2/rightArrow.svg);
+  background-repeat: no-repeat;
+}
+
+/* Section 3 Properties */
+
+#section3 {
+  width: 1600px;
+  height: 740px;
+}
+
+.section3Title {
+  position: absolute;
+  z-index: 999;
+  width: 546px;
+  height: 196px;
+  left: 101px;
+  top: 2176px;
+  background-image: url(./images/section_3/section3Title.svg);
+  background-repeat: no-repeat;
+}
+
+.section3Map {
+  position: absolute;
+  z-index: 888;
+  width: 850px;
+  height: 513px;
+  left: 650px;
+  top: 2100px;
+  background-image: url(./images/section_3/section3Map.svg);
+  background-repeat: no-repeat;
+}
+
+.section3DeliveryMap {
+  position: absolute;
+  z-index: 999;
+  width: 331px;
+  height: 716px;
+  left: 990px;
+  top: 1999px;
+  background-image: url(./images/section_3/section3DeliveryMap.svg);
+  background-repeat: no-repeat;
+}
+
+.section3MapPath {
+  position: absolute;
+  z-index: 890;
+  width: 544px;
+  height: 101px;
+  left: 855px;
+  top: 2173px;
+  background-image: url(./images/section_3/section3MapPath.svg);
+  background-repeat: no-repeat;
+}
+
+.section3Destination1 {
+  position: absolute;
+  z-index: 890;
+  width: 26px;
+  height: 26px;
+  left: 842px;
+  top: 2200px;
+  background-image: url(./images/section_3/section3Destination1.svg);
+}
+
+.section3Destination2 {
+  z-index: 890;
+  position: absolute;
+  width: 80px;
+  height: 204px;
+  left: 1375px;
+  top: 2173px;
+  background-image: url(./images/section_3/section3Destination2.svg);
+  background-repeat: no-repeat;
+}
+
+.section3DeliveryText {
+  position: absolute;
+  width: 338px;
+  height: 78px;
+  left: 101px;
+  top: 2399px;
+  font-family: Eina03;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: -0.470588px;
+  color: black;
+  background-image: url(./images/section_3/section3DeliveryText.svg);
+  background-repeat: no-repeat;
+}
+
+.section3Porsche {
+  position: absolute;
+  width: 499px;
+  height: 143px;
+  left: 429px;
+  top: 2502px;
+  z-index: 999;
+  background-image: url(./images/section_3/section3Porsche.svg)
+}
+
+/* Section 4 Styles */
+
+#section4 {
+  width: 1600px;
+  height: fit-content;
+}
+
+.section4Title {
+  position: absolute;
+  z-index: 999;
+  width: 544px;
+  height: 196px;
+  left: 826px;
+  top: 3206px;
+  font-family: BebasNeue;
+  font-size: 95px;
+  line-height: 98px;
+  /* or 103% */
+  letter-spacing: -0.458235px;
+  color: #2B3144;
+  background-image: url(./images/section_4/section4Title.svg);
+  background-repeat: no-repeat;
+}
+
+.section4Backdrop {
+  position: absolute;
+  z-index: 888;
+  width: 730px;
+  height: 823px;
+  left: 43px;
+  top: 2930px;
+  background-image: url(./images/section_4/section4Backdrop.svg);
+}
+
+.section4Vehicle {
+  position: absolute;
+  z-index: 999;
+  width: 338px;
+  height: 725px;
+  left: 392px;
+  top: 2982px;
+  background-image: url(./images/section_4/section4Vehicle.svg);
+}
+
+.section4TradeInText {
+  position: absolute;
+  z-index: 999;
+  width: 397px;
+  height: 78px;
+  left: 826px;
+  top: 3429px;
+  font-family: Eina03;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: -0.470588px;
+  color: #000000;
+  background-image: url(./images/section_4/section4TradeInText.svg);
+  background-repeat: no-repeat;
+}
+
+/* Section 5 Styles */
+
+#section5 {
+  width: 1600px;
+  height: 740px;
+}
+
+.section5Block1 {
+  position: absolute;
+  z-index: 888;
+  width: 453px;
+  height: 453px;
+  left: 101px;
+  top: 3963px;
+  background: #F5F5F7;
+  background-image: url(./images/section_5/section5Block1.svg);
+  background-repeat: no-repeat;
+}
+
+.section5Coin {
+  position: absolute;
+  z-index: 899;
+  width: 113.95px;
+  height: 142px;
+  left: 271px;
+  top: 4058px;
+  background-image: url(./images/section_5/section5Coin.svg);
+}
+
+.section5PricingHeader {
+  position: absolute;
+  z-index: 999;
+  width: 259px;
+  height: 88px;
+  left: 199px;
+  top: 4212px;
+  font-family: BebasNeue;
+  font-size: 34px;
+  line-height: 88px;
+  letter-spacing: -0.164px;
+  color: #2B3144;
+  background-image: url(./images/section_5/section5PricingHeader.svg);
+  background-repeat: no-repeat;
+}
+
+.section5PricingSubHeader {
+  position: absolute;
+  z-index: 999;
+  width: 258px;
+  height: 42px;
+  left: 199px;
+  top: 4288px;
+  font-family: Eina03;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: -0.411765px;
+  color: #000000;
+  background-image: url(./images/section_5/section5PricingSubHeader.svg);
+  background-repeat: no-repeat;
+}
+
+.section5Block2 {
+  position: absolute;
+  z-index: 888;
+  width: 453px;
+  height: 453px;
+  left: 574px;
+  top: 3963px;
+  background: #F5F5F7;
+  background-image: url(./images/section_5/section5Block2.svg);
+  background-repeat: no-repeat;
+}
+
+.section5Document {
+  position: absolute;
+  z-index: 999;
+  width: 95px;
+  height: 150px;
+  left: 753px;
+  top: 4050px;
+  background-image: url(./images/section_5/section5Document.svg);
+  background-repeat: no-repeat;
+}
+
+.section5VehicleHeader {
+  position: absolute;
+  z-index: 999;
+  width: 316px;
+  height: 118px;
+  left: 648px;
+  top: 4212px;
+  background-image: url(./images/section_5/section5VehicleHeader.svg);
+  background-repeat: no-repeat;
+}
+
+.section5Block3 {
+  position: absolute;
+  z-index: 888;
+  width: 453px;
+  height: 453px;
+  left: 1047px;
+  top: 3963px;
+  background: #F5F5F7;
+  background-image: url(./images/section_5/section5Block3.svg);
+}
+
+.section5Fix {
+  position: absolute;
+  z-index: 999;
+  width: 122px;
+  height: 146px;
+  left: 1210px;
+  top: 4054px;
+  background-image: url(./images/section_5/section5Fix.svg);
+}
+
+.section5MaintenanceHeader {
+  position: absolute;
+  z-index: 999;
+  width: 266px;
+  height: 88px;
+  left: 1145px;
+  top: 4212px;
+  font-family: BebasNeue;
+  font-size: 34px;
+  line-height: 88px;
+  letter-spacing: -0.164px;
+  color: #2B3144;
+  background-image: url(./images/section_5/section5MaintenanceHeader.svg);
+  background-repeat: no-repeat;
+}
+
+.section5MaintenanceSubHeader {
+  position: absolute;
+  z-index: 999;
+  width: 273px;
+  height: 42px;
+  left: 1145px;
+  top: 4288px;
+  font-family: Eina03;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: -0.411765px;
+  color: #000000;
+  background-image: url(./images/section_5/section5MaintenanceSubHeader.svg);
+  background-repeat: no-repeat;
+}
+
+/* Section 6 Styles */
+#section6 {
+  width: 1600px;
+  height: 740px;
+}
+
+.section6Backdrop {
+  position: absolute;
+  width: 637px;
+  height: 722px;
+  z-index: 888;
+  left: 0%;
+  right: 52.57%;
+  top: 5000px;
+  bottom: 14px;
+  background: #FBC843;
+}
+
+.section6Person {
+  position: absolute;
+  width: 437px;
+  height: 617px;
+  z-index: 998;
+  left: 8.5%;
+  right: 28.97%;
+  top: 5105px;
+  bottom: 14.15%;
+  background-image: url(./images/section_6/section6Person.svg);
+}
+
+.section6car {
+position: absolute;
+z-index: 999;
+width: 912px;
+height: 237px;
+left: 13.48%;
+right: 18.62%;
+top: 5600px;
+bottom: 14px;
+background-image: url(./images/section_6/section6Car.svg);
+}
+
+.section6Title {
+  position: absolute;
+  height: 176px;
+  left: 54.73%;
+  right: 0%;
+  top: 5100px;
+
+  font-family: BebasNeue;
+  font-size: 93px;
+  line-height: 88px;
+  /* or 95% */
+  letter-spacing: -0.448588px;
+  color: #2B3144;
+  background-image: url(./images/section_6/section6Title.svg);
+  background-repeat: no-repeat;
+}
+
+.section6SubText {
+  position: absolute;
+  width: 397px;
+  height: 50px;
+  left: 55.03%;
+  right: 15.41%;
+  top: 5300px;
+  bottom: 57.91%;
+  font-family: Eina03;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: -0.470588px;
+  color: #000000;
+  background-image: url(./images/section_6/section6SubText.svg);
+  background-repeat: no-repeat;
+}
+
+.section6Signature {
+  position: absolute;
+  width: 187px;
+  height: 26px;
+  left: 55.25%;
+  right: 30.83%;
+  top: 5370px;
+  font-family: Eina03;
+  font-size: 12px;
+  line-height: 26px;
+  /* identical to box height, or 217% */
+  letter-spacing: -0.352941px;
+  color: #000000;
+  background-image: url(./images/section_6/section6Signature.svg);
+  background-repeat: no-repeat;
+}
+
+.section6Availability {
+  position: absolute;
+  height: 108px;
+  width: 194px;
+  left: 55.25%;
+  right: 20%;
+  top: 5500px;
+  font-family: Eina03;
+  font-size: 16px;
+  line-height: 54px;
+  letter-spacing: -0.470588px;
+  color: #414A69;
+  background-image: url(./images/section_6/section6Availability.svg);
+  background-repeat: no-repeat;
+}
+
+.section6Arrow {
+  width: 28px;
+  height: 11px;
+  position: absolute;
+  left: 68%;
+  right: -12.35%;
+  top: 5500px;
+  bottom: 13.02%;
+  background-image: url(./images/section_6/section6Arrow.svg);
+}
+
+.footerLogo {
+  position: absolute;
+  width: 157px;
+  height: 13px;
+  left: 101px;
+  top: 6000px;
+  background-image: url(./images/section_6/footerLogo.svg);
+  padding-bottom: 118px;
+  background-repeat: no-repeat;
+}
+
+.aboutUs {
+  position: absolute;
+  height: 15px;
+  left: 78%;
+  right: -12.35%;
+  top: 6000px;
+  font-family: Eina03;
+  font-size: 11px;
+  line-height: 13px;
+  letter-spacing: -0.323529px;
+  color: #4F5874;
+  background-image: url(./images/section_6/aboutUs.svg);
+  background-repeat: no-repeat;
+}
+
+.termsOfUse {
+  position: absolute;
+  width: 64px;
+  height: 15px;
+  left: 86%;
+  right: -12.35%;
+  top: 6000px;
+  font-family: Eina03;
+  font-size: 11px;
+  line-height: 13px;
+  letter-spacing: -0.323529px;
+  color: #4F5874;
+  background-image: url(./images/section_6/termsOfUse.svg);
+  background-repeat: no-repeat;
+}
+
+.footerFAQ {
+  position: absolute;
+  height: 15px;
+  left: 94%;
+  right: -12.35%;
+  top: 6000px;
+  font-family: Eina03;
+  font-size: 11px;
+  line-height: 13px;
+  letter-spacing: -0.323529px;
+  color: #4F5874;
+  background-image: url(./images/section_6/footerFAQ.svg);
+  background-repeat: no-repeat;
+}
+
+
+/* Media Queries targeting Mobile Devices */
+
+@media screen and (max-width: 480px) {
+
+  /* Section 1 Mobile Styles
+  .yellowBackdrop {
+    zoom: 1.2;
+  }
+
+  .carGroup {
+    zoom: 1;
+  }
+
+  .vehicleApp {
+    display: none;
+  }
+
+  .section1Title {
+    zoom: 1;
+  }
+
+ .landRover {
+   display: none;
+ }
+
+ .roverSubText {
+   display: none;
+ }
+ .mpg {
+   display: none;
+ }
+
+ .roverMPG {
+   display: none;
+ }
+
+ .hp {
+   display: none;
+ }
+
+ .roverHP {
+   display: none;
+ }
+
+ .zeroToSixty {
+   display: none;
+ }
+
+ .roverZTS {
+   display: none;
+ } */
 }
